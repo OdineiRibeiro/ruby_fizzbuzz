@@ -1,13 +1,13 @@
 def fizzbuzz(num_qtd)
   for i in 1..num_qtd
     if i % 3 == 0 &&  i % 5 == 0
-      puts 'fizzbuzz'
+      print 'fizzbuzz, '
     elsif i % 3 == 0 && i % 5 != 0
-      puts 'fizz'
+      print 'fizz, '
     elsif i % 3 != 0 && i % 5 == 0
-      puts 'buzz'
+      print 'buzz, '
     else
-      puts i
+      print "#{i}, "
     end
   end
 end
